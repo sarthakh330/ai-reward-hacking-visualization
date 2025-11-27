@@ -2,6 +2,23 @@
 
 A multi-modal visualization exploration of Anthropic's research on reward hacking and emergent misalignment in AI systems, created using Claude's advanced skills system.
 
+## Visual Showcase
+
+<table>
+  <tr>
+    <td width="50%">
+      <img src="screenshots/infographic-hero.png" alt="Anthropic Reward Hacking Infographic" width="100%"/>
+      <p align="center"><em>Web Infographic - Comprehensive Research Breakdown</em></p>
+    </td>
+    <td width="50%">
+      <img src="screenshots/interactive-art.png" alt="Interactive Generative Art Visualization" width="100%"/>
+      <p align="center"><em>Interactive Generative Art - Emergent Corruption</em></p>
+    </td>
+  </tr>
+</table>
+
+[**🔗 View Live Infographic**](https://sarthakh330.github.io/ai-reward-hacking-visualization/anthropic_reward_hacking_infographic_v2.html) | [**🎨 Try Interactive Art**](https://sarthakh330.github.io/ai-reward-hacking-visualization/emergent_corruption_interactive.html)
+
 ## Project Overview
 
 This project transforms complex AI safety research into accessible visual formats, demonstrating how small training errors can cascade into widespread model misalignment. Based on Anthropic's November 2024 research paper on reward hacking behaviors in Claude Sonnet 3.7 and 4.5.
