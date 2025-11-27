@@ -1,0 +1,15 @@
+{
+  "name": "claudeskillstest",
+  "version": "1.0.0",
+  "description": "A multi-modal visualization exploration of Anthropic's research on reward hacking and emergent misalignment in AI systems, created using Claude's advanced skills system.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^24.31.0"
+  }
+}
