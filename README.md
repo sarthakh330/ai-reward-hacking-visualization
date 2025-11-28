@@ -1,17 +1,46 @@
-# AI Research Visualization Portfolio
+# Research-to-Artifact Pipeline
 
-Collection of interactive visualizations and reports exploring cutting-edge AI research and industry trends.
+Exploring how to transform deep research reports and video transcripts into polished, interactive web artifacts using AI tools. This portfolio demonstrates the end-to-end workflow: from raw research inputs (Gemini Deep Research, YouTube transcripts) to publication-quality visualizations and reports (via Claude.ai, p5.js, and custom web development).
 
 [![View Live Demo](https://img.shields.io/badge/Demo-Live-blue)](https://sarthakh330.github.io/ai-reward-hacking-visualization/) [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-## Projects
+## The Pipeline
+
+This project explores automated workflows for turning raw research into polished knowledge artifacts:
+
+```
+┌─────────────────┐      ┌──────────────────┐      ┌────────────────────┐
+│  Input Source   │  →   │  AI Processing   │  →   │  Visual Artifact   │
+├─────────────────┤      ├──────────────────┤      ├────────────────────┤
+│ • Deep Research │      │ • Claude.ai      │      │ • Web Articles     │
+│ • Video Trans.  │      │ • Claude Skills  │      │ • Infographics     │
+│ • Papers/Docs   │      │ • p5.js          │      │ • Interactive Art  │
+│ • Podcasts      │      │ • Custom Dev     │      │ • Print Posters    │
+└─────────────────┘      └──────────────────┘      └────────────────────┘
+```
+
+**Example Workflows:**
+
+1. **Gemini Deep Research** → Claude.ai web development → Magazine-style research articles
+2. **YouTube transcripts** → Claude.ai + Claude Skills → Interactive infographics & generative art
+3. **Academic papers** → Multi-modal visualization → Educational web experiences
+
+Each case study below demonstrates a complete transformation from source material to finished artifact.
+
+## Case Studies
 
 ### 1. Agentic AI Revolution Report
 [View Report](https://sarthakh330.github.io/ai-reward-hacking-visualization/agentic-ai-revolution-report.html) | [Claude Artifact](https://claude.ai/public/artifacts/d2df881f-c426-4ec5-b8ee-04d3c004e628)
 
-Comprehensive analysis of the shift from AI copilots to autonomous agents in the software industry. Based on Gemini Deep Research and developed with Claude.ai.
+**Pipeline:** Gemini Deep Research → Claude.ai → Publication-quality web article
 
-**Key Topics:**
+Demonstrates transforming a comprehensive AI market research report into a magazine-style editorial layout with custom typography, data visualizations, and structured narrative.
+
+**Source:** Gemini Deep Research report on autonomous AI agents
+**Output:** 18-minute read with professional editorial design (Crimson Pro, Source Sans 3)
+**Format:** HTML article with sections, pull quotes, comparison tables, data boxes
+
+**Content Coverage:**
 - The "agent washing" problem and true agentic capabilities
 - Economic shift from seat-based to outcome-based pricing
 - Developer tool landscape (Cursor, Copilot, Devin, Windsurf)
@@ -21,7 +50,13 @@ Comprehensive analysis of the shift from AI copilots to autonomous agents in the
 ### 2. Reward Hacking Visualization
 [View Infographic](https://sarthakh330.github.io/ai-reward-hacking-visualization/anthropic_reward_hacking_infographic_v2.html) | [Interactive Demo](https://sarthakh330.github.io/ai-reward-hacking-visualization/emergent_corruption_interactive.html)
 
-Multi-modal visualization of Anthropic's research on reward hacking and emergent misalignment in AI systems.
+**Pipeline:** YouTube transcript → Claude.ai + Claude Skills → Multi-modal artifacts
+
+Demonstrates transforming a YouTube video transcript (AI Labs) into three distinct visual formats: web infographic, interactive generative art, and print poster.
+
+**Source:** YouTube video transcript analyzing Anthropic's reward hacking research
+**Output:** 3 complementary formats (text, interactive, static)
+**Formats:** HTML infographic, p5.js particle system, PDF poster
 
 ## Visual Showcase
 
@@ -231,15 +266,33 @@ Open `reward_hacking_poster.pdf` and print at A3 size.
 - **PDF Generation:** Python + ReportLab
 - **Automation:** Puppeteer (screenshot capture)
 
-## Applications
+## Transformation Workflows
 
-This methodology can be applied to:
+This research-to-artifact pipeline can be applied to:
+
+**Input Formats:**
+- Gemini Deep Research reports
+- YouTube video transcripts
+- Academic papers and research publications
+- Podcast transcripts
+- Conference talk recordings
+- Technical documentation
+
+**Output Artifacts:**
+- Magazine-style research articles with custom design
+- Interactive web infographics with data visualization
+- Generative art installations (p5.js, canvas-based)
+- Print-ready posters and educational materials
+- Multi-modal content packages (text + interactive + static)
+- Technical documentation with visual aids
+
+**Applications:**
 - Research communication and data storytelling
 - Educational content for complex topics
-- Conference materials (posters, presentations)
+- Conference materials and presentations
 - AI safety education and public engagement
 - Industry analysis and market research
-- Interactive technical documentation
+- Technical blog posts and long-form content
 
 ## Acknowledgments
 
