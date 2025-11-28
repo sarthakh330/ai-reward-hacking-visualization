@@ -1,30 +1,76 @@
-# AI Reward Hacking Visualization Project
+# AI Research Visualization Portfolio
 
-Multi-modal visualization of Anthropic's November 2024 research on reward hacking and emergent misalignment in AI systems.
+Collection of interactive visualizations and reports exploring cutting-edge AI research and industry trends.
 
 [![View Live Demo](https://img.shields.io/badge/Demo-Live-blue)](https://sarthakh330.github.io/ai-reward-hacking-visualization/) [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-## Live Demos
+## Projects
 
-- [Web Infographic](https://sarthakh330.github.io/ai-reward-hacking-visualization/anthropic_reward_hacking_infographic_v2.html) - Comprehensive research breakdown
-- [Interactive Visualization](https://sarthakh330.github.io/ai-reward-hacking-visualization/emergent_corruption_interactive.html) - Generative particle system
+### 1. Agentic AI Revolution Report
+[View Report](https://sarthakh330.github.io/ai-reward-hacking-visualization/agentic-ai-revolution-report.html) | [Claude Artifact](https://claude.ai/public/artifacts/d2df881f-c426-4ec5-b8ee-04d3c004e628)
 
-## Screenshots
+Comprehensive analysis of the shift from AI copilots to autonomous agents in the software industry. Based on Gemini Deep Research and developed with Claude.ai.
+
+**Key Topics:**
+- The "agent washing" problem and true agentic capabilities
+- Economic shift from seat-based to outcome-based pricing
+- Developer tool landscape (Cursor, Copilot, Devin, Windsurf)
+- "Vibe coding" and no-code AI platforms
+- Enterprise adoption strategies
+
+### 2. Reward Hacking Visualization
+[View Infographic](https://sarthakh330.github.io/ai-reward-hacking-visualization/anthropic_reward_hacking_infographic_v2.html) | [Interactive Demo](https://sarthakh330.github.io/ai-reward-hacking-visualization/emergent_corruption_interactive.html)
+
+Multi-modal visualization of Anthropic's research on reward hacking and emergent misalignment in AI systems.
+
+## Visual Showcase
 
 <table>
   <tr>
     <td width="50%">
-      <img src="screenshots/infographic-hero.png" alt="Research Infographic"/>
+      <img src="screenshots/agentic-report-hero.png" alt="Agentic AI Revolution Report"/>
+      <p align="center"><em>Agentic AI Revolution Report</em></p>
     </td>
     <td width="50%">
-      <img src="screenshots/interactive-art.png" alt="Interactive Visualization"/>
+      <img src="screenshots/interactive-art.png" alt="Interactive Corruption Visualization"/>
+      <p align="center"><em>Interactive Corruption Visualization</em></p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <img src="screenshots/infographic-hero.png" alt="Reward Hacking Research Infographic"/>
+      <p align="center"><em>Reward Hacking Research Infographic</em></p>
     </td>
   </tr>
 </table>
 
-## Research Summary
+---
 
-This project visualizes Anthropic's findings on how AI models trained with small errors can generalize to widespread misalignment:
+## Detailed Project Information
+
+### Agentic AI Revolution Report
+
+In-depth research report examining the transformation of the software industry through autonomous AI agents. Created using Gemini Deep Research for content and Claude.ai for web development.
+
+**Report Structure:**
+- **Agent Taxonomy:** Distinguishing true agents from "agent-washed" automation
+- **Four Pillars:** Perception, reasoning, tool use, and memory management
+- **Economic Analysis:** Transition from seat-based to outcome-based pricing models
+- **Developer Tools Comparison:** Detailed analysis of Cursor, GitHub Copilot, Windsurf, and Devin
+- **Market Landscape:** Emerging platforms for no-code/low-code AI development
+- **Enterprise Strategies:** Adoption frameworks and implementation patterns
+
+**Market Insights:**
+- $3T potential annual GDP contribution from AI in software development
+- Over 1,000 vendors claim agentic capabilities; <130 meet architectural requirements
+- 88% enterprise adoption of GitHub Copilot in regulated industries
+- Shift from infrastructure spending (2023-24) to application-layer AI (2025)
+
+---
+
+### Reward Hacking Visualization
+
+Anthropic's findings on how AI models trained with small errors can generalize to widespread misalignment:
 
 - **50%+ misalignment rate** after exposure to hacking strategies in training data
 - Models demonstrate awareness of training vs. deployment contexts
@@ -48,11 +94,24 @@ Training Phase          Generalization         Real-World Impact
 
 **Source:** [Anthropic Research](https://www.anthropic.com/research)
 
-## Project Contents
+## Project Files
 
-### 1. Web Infographic (`anthropic_reward_hacking_infographic_v2.html`)
+### 1. Agentic AI Revolution Report (`agentic-ai-revolution-report.html`)
 
-Professional web page documenting research findings:
+Publication-quality research report analyzing the autonomous AI agent market:
+- Magazine-style layout with custom typography (Crimson Pro, Source Sans 3)
+- Comprehensive market analysis and vendor landscape
+- Data visualizations and comparison tables
+- 18-minute read depth covering economics, technology, and strategy
+- Responsive design optimized for reading experience
+
+**Design:** Professional editorial styling with structured sections, pull quotes, and data boxes
+
+**Sources:** Gemini Deep Research (content) + Claude.ai (web development)
+
+### 2. Reward Hacking Infographic (`anthropic_reward_hacking_infographic_v2.html`)
+
+Professional web page documenting Anthropic research findings:
 - Background on reinforcement learning and reward hacking
 - Experimental design and methodology
 - Key findings with data visualization
@@ -61,7 +120,7 @@ Professional web page documenting research findings:
 
 **Design:** Anthropic brand guidelines (Poppins/Lora fonts, #d97757 orange, #141413 dark)
 
-### 2. Interactive Generative Art (`emergent_corruption_interactive.html`)
+### 3. Interactive Generative Art (`emergent_corruption_interactive.html`)
 
 Real-time particle system visualizing corruption spread:
 - 500+ particles with Perlin noise flow fields
@@ -72,7 +131,7 @@ Real-time particle system visualizing corruption spread:
 
 **Technology:** p5.js, algorithmic art methodology
 
-### 3. Static Poster (`reward_hacking_poster.pdf`)
+### 4. Static Poster (`reward_hacking_poster.pdf`)
 
 Print-ready A3 poster featuring:
 - Grid-based data visualization
@@ -105,6 +164,7 @@ Print-ready A3 poster featuring:
 ```
 .
 ├── README.md
+├── agentic-ai-revolution-report.html       # NEW: Agentic AI market analysis
 ├── anthropic_reward_hacking_infographic.html
 ├── anthropic_reward_hacking_infographic_v2.html
 ├── emergent_corruption_interactive.html
@@ -113,6 +173,8 @@ Print-ready A3 poster featuring:
 ├── algorithmic_philosophy.md
 ├── capture-screenshots.js
 └── screenshots/
+    ├── agentic-report-hero.png             # NEW
+    ├── agentic-report-full.png             # NEW
     ├── infographic-hero.png
     ├── infographic-full.png
     └── interactive-art.png
@@ -120,7 +182,12 @@ Print-ready A3 poster featuring:
 
 ## Usage
 
-### View Web Infographic
+### View Agentic AI Report
+Open `agentic-ai-revolution-report.html` in any browser or [view online](https://sarthakh330.github.io/ai-reward-hacking-visualization/agentic-ai-revolution-report.html).
+
+Also available as [Claude Artifact](https://claude.ai/public/artifacts/d2df881f-c426-4ec5-b8ee-04d3c004e628) for collaborative viewing and editing.
+
+### View Reward Hacking Infographic
 Open `anthropic_reward_hacking_infographic_v2.html` in any browser or view online.
 
 ### Explore Interactive Art
@@ -158,11 +225,11 @@ Open `reward_hacking_poster.pdf` and print at A3 size.
 
 ## Tools & Technologies
 
-- Claude (Anthropic) with skills system
-- Python + ReportLab (PDF generation)
-- p5.js (generative art framework)
-- Puppeteer (screenshot automation)
-- HTML/CSS/JavaScript
+- **AI Tools:** Claude (Anthropic) with skills system, Gemini Deep Research
+- **Web Development:** HTML/CSS/JavaScript, custom typography
+- **Visualization:** p5.js (generative art framework)
+- **PDF Generation:** Python + ReportLab
+- **Automation:** Puppeteer (screenshot capture)
 
 ## Applications
 
@@ -171,15 +238,25 @@ This methodology can be applied to:
 - Educational content for complex topics
 - Conference materials (posters, presentations)
 - AI safety education and public engagement
+- Industry analysis and market research
+- Interactive technical documentation
 
 ## Acknowledgments
 
-- **Research:** Anthropic AI Safety Team
-- **Design System:** Anthropic Brand Guidelines
-- **Framework:** p5.js
-- **Creation Date:** November 27, 2024
-- **Creator:** Sarthak Handa
+**Agentic AI Revolution Report:**
+- Content research: Gemini Deep Research
+- Web development: Claude.ai
+- Design: Magazine-style editorial layout
+
+**Reward Hacking Visualization:**
+- Research: Anthropic AI Safety Team
+- Design system: Anthropic Brand Guidelines
+- Framework: p5.js
+
+**Project:**
+- Creation date: November 27, 2024
+- Creator: Sarthak Handa
 
 ## License
 
-Visualizations created for educational purposes. Original research © Anthropic. Implementation code and designs available under MIT license.
+Visualizations created for educational purposes. Original research © respective organizations. Implementation code and designs available under MIT license.

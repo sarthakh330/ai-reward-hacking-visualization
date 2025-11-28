@@ -67,6 +67,25 @@ async function captureScreenshots() {
         console.log('✓ Original infographic screenshot captured');
         await page3.close();
 
+        // Screenshot 4: Agentic AI Revolution Report
+        console.log('Capturing agentic AI report screenshot...');
+        const page4 = await browser.newPage();
+        await page4.goto(`file://${path.join(__dirname, 'agentic-ai-revolution-report.html')}`, {
+            waitUntil: 'networkidle0'
+        });
+        await page4.screenshot({
+            path: path.join(screenshotsDir, 'agentic-report-hero.png'),
+            fullPage: false
+        });
+
+        // Capture full page as well
+        await page4.screenshot({
+            path: path.join(screenshotsDir, 'agentic-report-full.png'),
+            fullPage: true
+        });
+        console.log('✓ Agentic AI report screenshots captured');
+        await page4.close();
+
         console.log('\n✅ All screenshots captured successfully!');
         console.log(`Screenshots saved to: ${screenshotsDir}`);
 
